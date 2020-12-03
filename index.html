@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Images</title>
+    <style>
+        img {
+            max-width: 100%;
+            display: block
+        }
+    </style>
 </head>
 <body>
-
+    <img srcset="img/eggs-600.jpgm img/eggs-900.jpg" src="img/eggs-900.jpg" alt="Easter Eggs">
 </body>
 </html>
